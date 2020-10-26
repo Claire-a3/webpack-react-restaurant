@@ -1,13 +1,15 @@
 import React from "react";
 const About = () => {
+  var style = {};
   return (
-    <div>
+    <div class="container bg">
+    
       <h1> About Page</h1>
       <h2>The Spot Restaurant</h2>
       <p>
-        Craving some delicious Greek food? Maybe you’re in the mood for a juicy
-        steak? No matter what kind of meal you have in mind, The Spot Restaurant
-        is ready to prepare it for you. Since 1973, The Spot Restaurant has been
+        Craving some delicious food? Maybe you’re in the mood for a juicy steak?
+        No matter what kind of meal you have in mind, The Spot Restaurant is
+        ready to prepare it for you. Since 1973, The Spot Restaurant has been
         the go-to diner for residents of Kisumu. Our diner serves breakfast all
         day, in addition to wholesome and flavorful dining options for lunch and
         dinner. From burgers to salads, seafood to pastas, you’ll find all kinds

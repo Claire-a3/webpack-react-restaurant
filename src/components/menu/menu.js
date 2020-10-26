@@ -1,18 +1,12 @@
 import React from "react";
 
 const Menu = () => {
-  var style={
- background: url('https://digitalmarketing.blob.core.windows.net/10261/images/items/image472196.jpg')
+  var style = {};
 
-}
   return (
     <div
       class="container"
-      style={{
-        background: url(
-          "https://digitalmarketing.blob.core.windows.net/10261/images/items/image472196.jpg"
-        ),
-      }}
+      style={{ background: "ivory" }}
     >
       <h2>Menu Page</h2>
       <h3>BREAKFAST</h3>
@@ -30,52 +24,126 @@ const Menu = () => {
             <td>850.00</td>
           </tr>
           <tr>
-            <td>Mary</td>
-            <td>Moe</td>
+            <td>Blueberry pancakes</td>
+            <td>350.00</td>
           </tr>
           <tr>
-            <td>July</td>
-            <td>Dooley</td>
+            <td>Corn flakes</td>
+            <td>250.00</td>
+          </tr>
+          <tr>
+            <td>Egg with Bacon or Ham or Sausage</td>
+            <td>200.00</td>
+          </tr>
+        </tbody>
+
+        <h3>LUNCH</h3>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Cost</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Roast Beef</td>
+            <td>500.00</td>
+          </tr>
+          <tr>
+            <td>Chicken Salad</td>
+            <td>650.00</td>
+          </tr>
+          <tr>
+            <td>Wet fried Beef</td>
+            <td>750.00</td>
+          </tr>
+          <tr>
+            <td>Fish</td>
+            <td>800.00</td>
+          </tr>
+          <tr>
+            <td>Tuna Fish</td>
+            <td>1000.00</td>
+          </tr>
+        </tbody>
+
+        <h3>SALAD PLATES</h3>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Salmon salad</td>
+            <td> 400.00</td>
+          </tr>
+          <tr>
+            <td>Steak salad</td>
+            <td> 450.00</td>
+          </tr>
+          <tr>
+            <td>Broiled chicken salad </td>
+            <td>930.00</td>
+          </tr>
+        </tbody>
+        <h3>BEVERAGES</h3>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Milk shake</td>
+            <td>200.00</td>
+          </tr>
+          <tr>
+            <td>Soda 500ml </td>
+            <td>300.00</td>
+          </tr>
+          <tr>
+            <td>Bottled water 500ml </td>
+            <td>200.00</td>
+          </tr>
+          <tr>
+            <td>Herbal tea</td>
+            <td>320.00</td>
+          </tr>
+          <tr>
+            <td>Coffee</td>
+            <td>400.00</td>
+          </tr>
+        </tbody>
+        <h3>DINNER</h3>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Boiled chicken breast</td>
+            <td> 750</td>
+          </tr>
+          <tr>
+            <td>Shrimp </td>
+            <td> 1700.00</td>
+          </tr>
+          <tr>
+            <td>Baked ham </td>
+            <td> 700.00</td>
+          </tr>
+          <tr>
+            <td>Shis ke-bab </td>
+            <td>530.oo</td>
           </tr>
         </tbody>
       </table>
-
-      <ol>
-        <li>
-          <li>Blueberry pancakes @350.00</li>
-          <li>Corn flakes @ 250.00</li>
-          <li>Egg with Bacon or Ham or Sausage @ 200.00</li>
-        </li>
-      </ol>
-      <h3>LUNCH</h3>
-      <ol>
-        <li>Roast Beef @ 500.00</li>
-        <li>Chicken Salad @ 600.00</li>
-        <li>Wet fried Beef @ 750.00</li>
-        <li>Fish @ 800.00</li>
-        <li>Tuna Fish @ 1000.00</li>
-      </ol>
-      <h3>SALAD PLATES</h3>
-      <ol>
-        <li>Salmon salad @ 400.00</li>
-        <li>Steak salad @ 450.00</li>
-        <li>Broiled chicken salad @ 930.00</li>
-      </ol>
-      <h3>BEVERAGES</h3>
-      <ol>
-        <li>Milk shake @ 200.00</li>
-        <li>Soda 500ml @ 300.00</li>
-        <li>Bottled water 500ml @ 200.00</li>
-        <li>Herbal tea</li>
-        <li>Coffee</li>
-      </ol>
-      <h3>DINNER</h3>
-      <ol>
-        <li>Boiled chicken breast @ 750</li>
-        <li>Shrimp @ 1700.00</li>
-        <li>Baked ham @ 700.00</li>
-        <li>Shis ke-bab @ 900.00</li>
-      </ol>
     </div>
   );
 };
