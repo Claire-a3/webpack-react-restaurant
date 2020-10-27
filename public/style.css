@@ -46,6 +46,6 @@ table {
     color:red;
     font-weight:bold;
     text-align: center;
-	background: url("src/components/image472146.jpg") bottom center no-repeat
-	url(background-pattern.png) repeat;
+	background: url("") bottom center no-repeat;
+	/* url(background-pattern.png) repeat; */
 } 

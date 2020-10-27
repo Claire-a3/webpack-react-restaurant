@@ -2,7 +2,7 @@ var path = require("path");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "public"),
+    path: path.join(__dirname, "public"),
     filename: "bundle.js",
   },
   module: {
@@ -14,11 +14,22 @@ module.exports = {
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.(css)$/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(jpg|png)$/i,
+        loader: "url-loader",
+        options: {
+          limit: 5000,
+        },
+      },
     ],
   },
   devtool: "eval-cheap-module-source-map",
   devServer: {
-    contentBase: path.resolve(__dirname, "public"),
+    contentBase: path.join(__dirname, "public"),
     compress: true,
     port: 3000,
     historyApiFallback: true,
