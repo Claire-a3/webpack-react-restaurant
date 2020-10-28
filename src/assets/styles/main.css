@@ -8,3 +8,14 @@
 .blur{
  backdrop-filter: blur(7px);
 }
+
+.about-back {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url('../img/images\ \(1\).png') no-repeat;
+  background-size: cover;
+ 
+  height: 100%;
+}
+
+.blur{
+ backdrop-filter: blur(7px);
+}

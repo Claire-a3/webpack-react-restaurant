@@ -2,7 +2,7 @@ import React from "react";
 const About = () => {
   var style = {};
   return (
-    <div class="container bg">
+   <div class="container about-back">
     
       <h1> About Page</h1>
       <h2>The Spot Restaurant</h2>
